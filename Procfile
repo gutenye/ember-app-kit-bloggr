@@ -1,1 +1,2 @@
-web: ./node_modules/grunt-cli/bin/grunt expressServer:dist:keepalive
+web: node web.js
+worker: node worker.js
