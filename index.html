@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+
+  <link rel="stylesheet" href="assets/58fa44c1.app.min.css">
+
+  <!-- <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+
+  <!-- for more details visit: https://github.com/yeoman/grunt-usemin -->
+
+  <script src="assets/5ee2eda3.vendor.min.js"></script>
+
+  <!-- build:js(tmp/result) assets/app.min.js -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    window.showdown = new Showdown.converter();
+  </script>
+  <script src="/assets/d41d8cd9.app.min.js"></script>
+
+</head>
+<body>
+
+  <script>
+    window.App = require('appkit/app').create();
+  </script>
+</body>
+</html>
